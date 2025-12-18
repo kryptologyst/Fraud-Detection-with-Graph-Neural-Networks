@@ -1,0 +1,9 @@
+# @package data
+_target_: src.data.synthetic_fraud.SyntheticFraudDataset
+
+name: synthetic_fraud
+num_nodes: 1000
+num_features: 16
+fraud_ratio: 0.1
+edge_probability: 0.02
+seed: 42

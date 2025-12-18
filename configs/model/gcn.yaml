@@ -1,0 +1,11 @@
+# @package model
+_target_: src.models.gcn.GCN
+
+name: gcn
+in_channels: 16
+hidden_channels: 64
+out_channels: 2
+num_layers: 2
+dropout: 0.3
+use_batch_norm: true
+use_residual: false
